@@ -1,0 +1,108 @@
+.Navbar-full{
+    overflow: hidden;
+
+}
+.upperNav{
+    background-color: #56509f;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+    
+}
+.upperNav ul {
+    display: flex;
+
+    list-style-type: none;
+    margin: 15px ;
+   text-align: center;
+
+}
+.uppernav-link{
+    margin: 5px 12px;
+    padding: 6px 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 5px;
+   
+}
+
+@media only screen and (max-width: 450px) {
+.upperNav ul{
+        flex-direction: column; 
+        row-gap: 15px;
+    }
+}
+.uppernav-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;    
+    /* border: 2px solid red; */
+    font-size: 20px;
+    margin-right: 10px;
+    margin: 0 ;
+    font-weight: 800;
+    
+    /* Ensure the full width of the navbar is utilized */
+}
+.nav-item{
+    /* color: black; */
+    margin: 0 13px;
+    display: flex;
+        justify-content: center;
+        width: 100%;}
+
+
+
+.nav-item:hover {
+    transform: scale(1.2);
+    color: #ff1c1c;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(245, 68, 68, 0.3);
+
+}
+
+/* Add an animated underline effect for the links */
+.nav-item::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    /* background-color: aqua; */
+    transition: width 0.3s ease;
+    /* color: #ff1c1c; */
+}
+
+.nav-item:hover::before {
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+}
+
+.logo{
+    height: 4rem;
+    width: 10rem;
+    background-color: #f8f9fa;
+    border: none;
+   border-radius: 30px;
+  
+}
+.Admin{
+    border: 2px solid red;
+    
+}

@@ -1,0 +1,92 @@
+/* Reset some default styles for a clean slate */
+.admission,
+.admission>h1,
+form,
+label,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* Apply background color and padding to the entire form */
+.admission {
+    background-color: #D6E4E5;
+    /* Yellow or your preferred background color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the form container */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+/* Style the form title */
+.admission>h1 {
+    color: #2E8B57;
+    /* Sea Green or your preferred accent color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style form fields and labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #FFA500;
+    /* Orange or your preferred accent color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF6347;
+    /* A darker shade of orange on hover */
+}
+
+/* Style the select box */
+select {
+    padding: 10px;
+}
+
+/* Style the additional comments textarea */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Apply styles to specific form elements if needed */
+/* For example, you can add classes to labels and inputs and style them accordingly */

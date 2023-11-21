@@ -1,0 +1,34 @@
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 5px;
+    margin-top: 10px  ;
+    border-radius: 35px;
+    background-color: #e26262;
+    width: 100%;
+    color: #fff !important;
+
+ 
+}
+.footer-row{
+    /* border: 2px solid red; */
+    color: #fff !important;
+    font-weight: 500;
+    padding: 5px 4px;
+    text-align: center;
+}
+
+.footer-Heading{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.footer-column:hover{
+    color: #d6d6d6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+Link{
+    color: #fff !important;
+    font:50px
+}

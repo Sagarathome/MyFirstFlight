@@ -1,0 +1,43 @@
+.contactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  border: 2px solid rgb(105, 105, 105);
+  border-radius: 30px;
+  padding: 15px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.contactForm>h2{
+    text-align: center;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+}
+
+.contactForm>form>button{
+    background-color: #f4423f;
+    padding: 6px 12px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.contactForm>form{
+        padding: 25px;
+     
+}
+
+@media only screen and (max-width: 750px) {
+    .contact_card{
+        flex-direction: column;
+    }}
+
+.contact_card{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    margin: 25px;
+}

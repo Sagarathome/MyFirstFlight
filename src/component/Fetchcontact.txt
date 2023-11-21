@@ -1,0 +1,41 @@
+const addContact = async (name, email, phone,message) => {
+
+        console.log("sagar")
+        try {
+            const response = await fetch(`${host}/api/notes/addcontact`, {
+                method: 'Post',
+                headers: {
+                    'Content-Type': 'application/json',
+                    "auth-token": localStorage.getItem("token")
+                },
+                body: JSON.stringify({ name, email, phone, message })
+            });
+
+            const note = await response.json();
+            console.log("hey sagar", note);
+            setContact(contact.concat(note));
+        } catch (error) {
+            console.error("An error occurred while adding a note:", error);
+            // Handle the error gracefully, e.g., show an error message to the user
+        }
+    }
+
+
+     //Fetch Contacts 
+    const getContacts = async () => {
+        // Api Call
+        
+        const response = await fetch(`${host}/api/notes/fetchcontacts`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                "auth-token": localStorage.getItem("token")
+            }
+        });
+        const json = await response.json()
+        setContact(json)
+    }
+
+    const Contactinitial = [];
+
+    const [contact, setContact] = useState(Contactinitial);    

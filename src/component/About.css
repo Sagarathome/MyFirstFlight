@@ -1,0 +1,78 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 25px;
+    font-size: 22px;
+    font-weight: 550;
+    color: white;
+    flex-wrap: wrap;
+    /* background-color: #FFB6C1; */
+
+}
+.about-container>h1{
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: #56509f;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 30px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.about{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 5px 0px;
+    padding: 8px;
+    border-radius: 35px;
+background-color: #56509f;flex-wrap: wrap;
+   
+}
+.about-column{
+    display: flex;
+    flex-direction: row ;
+    column-gap: 5px;
+    flex-wrap: wrap;
+}
+.about.approch{
+    background-color: #ffca38;
+    color: black;
+}
+.about.mission{
+    background-color: #00715d;
+    
+}
+.about.welcome{
+    color: black;
+    background-color: #fcb45f;
+}
+.about_flex{
+    display: flex;
+    gap: 40px;
+}
+@media only screen and (max-width: 1200px) {
+    .about_flex {
+        flex-direction: column;
+
+    }
+  
+}
+@media only screen and (max-width: 1200px) {
+    .about-column {
+        flex-direction: column;
+        
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .about {
+        flex-direction: column;
+    }
+}
+.school_info{
+    padding: 35px;
+}
+.school_info>ul{
+    list-style: none;
+}
