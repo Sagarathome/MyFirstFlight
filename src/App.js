@@ -42,7 +42,7 @@ function App() {
           <Alert message={alert.message} type={alert.type} showAlert={showAlert} onRemove={removeAlert} />
         )}
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Home/>} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/admission" element={<Admission showAlert={showAlert} removeAlert={removeAlert} />} />
           <Route exact path="/gallery" element={<Gallery />} />

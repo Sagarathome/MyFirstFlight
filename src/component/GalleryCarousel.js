@@ -1,6 +1,5 @@
 import React from 'react';
-import {imgData} from './ProgramData'
-import img1 from './Bannerimg/img1.jpg';
+
 
 function GalleryCarousel({removeCarousel,selectedImage}) {
     const Style = {

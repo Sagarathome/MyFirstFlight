@@ -8,11 +8,9 @@ export default function Programs() {
   return (
     <div>
         <div className="programcard" >
-          {Data.filter((item)=>item.Type==='programs').map(item =>{ 
-            return <Card key={item.Type} Data={item} />
-
+          {Data.filter((item)=>item.Type==='programs').map((item,index) =>{ 
+            return <Card key={index} Data={item} />
           })}
-    
         </div>
        
     </div>
