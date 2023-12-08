@@ -38,7 +38,7 @@ const{addContact}= useContext(NoteContext)
         <>
         <div className='contactForm'>
             <h2>Get in Touch</h2>
-            <form onSubmit={handleSubmit}>
+            <form  className= "form_contact"   onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input

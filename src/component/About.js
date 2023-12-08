@@ -64,10 +64,10 @@ export default function About() {
       </div>
 
       <div className='about d-flex '>
-        <div className='container overflow-hidden mt-3'>
-        <img src={image1} style={{height:"150px",borderRadius:"20px" }} alt="" />
+        <div className=' d-flex juscontainer overflow-hidden mt-2 '>
+        <img src={image1}  style={{ height:"150px",borderRadius:"20px" }} alt="" />
       </div>
-        <div>
+        <div >
         <h1>Our School’s Director</h1>
         <p>Mr. Suresh Pal: He is a professional Data Scientist and have immense year of experience in teaching and management. He is highly educated and well qualified. His direction’s ability helped My First Flight to achieve several milestones. He helped school to innovate several programs which benefits kids and parents both PAP & PCP are the example of those programs. He has done his B.Tech from Amity School of Engineering & Technology and MBA from NIIT University. He has worked in several MNC’s and now his vision is to transform the teaching methodologies for toddlers and to provide benefits for both to kids and their parents. He wants to make quality education affordable to every parents and wants school to use advance teaching methodologies for kid’s overall development</p>
       </div>
@@ -77,9 +77,9 @@ export default function About() {
       </div>
       <div className='about_flex'>
 
-        <div className='about mission school_info '>
+        <div className='about mission school_info ' style={{width:"40%"}}>
           <div className='container overflow-hidden mt-1 mb-2'>
-        <img src={image2} style={{height:"190px",width:"250px" ,borderRadius:"20px", objectFit:"cover" }} alt="" />
+        <img src={image2} style={{height:"190px" ,borderRadius:"20px", objectFit:"cover" }} alt="" />
       </div>
           <div>
           <h1>Our School's Principal:</h1>
@@ -102,9 +102,10 @@ export default function About() {
           </ul>
           
         </div>
-        <div className='about mission school_info'>
-           <div className='container overflow-hidden mt-1 mb-2'>
-        <img src={image3} style={{height:"190px",width:"250px" ,borderRadius:"20px" }} alt="" />
+        
+        <div className='about mission school_info' style={{ width: "40%" }}>
+           <div className='container overflow-hidden mt-1 mb-2' >
+        <img src={image3} style={{height:"190px" ,borderRadius:"20px" }} alt="" />
       </div>
           <h1>Our School's Head Teacher:</h1>
           <p><strong>Name:</strong> Mrs. Vandana Jain</p>
