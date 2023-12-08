@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/MyFistFlight/static/css/main.8f64fc0a.css",
+    "main.js": "/MyFistFlight/static/js/main.dabb9ca1.js",
+    "static/js/787.234e27b1.chunk.js": "/MyFistFlight/static/js/787.234e27b1.chunk.js",
+    "static/media/img3.jpg": "/MyFistFlight/static/media/img3.65bc7df960fa2237889b.jpg",
+    "static/media/img4.jpg": "/MyFistFlight/static/media/img4.7ddf6363412b23375cd2.jpg",
+    "static/media/img1.jpg": "/MyFistFlight/static/media/img1.10814ba60c361eab32b4.jpg",
+    "static/media/playgroup.jpg": "/MyFistFlight/static/media/playgroup.8242985925925b4cc66a.jpg",
+    "static/media/img2.jpg": "/MyFistFlight/static/media/img2.045ac8328d7b2408ba12.jpg",
+    "static/media/Principal.jpeg": "/MyFistFlight/static/media/Principal.7ef1ddb5561e82375357.jpeg",
+    "static/media/img9.jpg": "/MyFistFlight/static/media/img9.67481c47bc9344fccee6.jpg",
+    "static/media/img7.jpg": "/MyFistFlight/static/media/img7.bd6541c2c3f0d309bde4.jpg",
+    "static/media/WhatsApp Image 2023-10-21 at 20.14.12.jpeg": "/MyFistFlight/static/media/WhatsApp Image 2023-10-21 at 20.14.12.22a9ffcae2c4becdf9de.jpeg",
+    "static/media/img8.jpg": "/MyFistFlight/static/media/img8.e9fc96ef7a79b3a39071.jpg",
+    "static/media/personalprgram.jpg": "/MyFistFlight/static/media/personalprgram.f22caa0ed4bd29a1474f.jpg",
+    "static/media/kinderGarden.jpg": "/MyFistFlight/static/media/kinderGarden.cf20d8da4481cf7d30bd.jpg",
+    "static/media/Teacher Training p.jpg": "/MyFistFlight/static/media/Teacher Training p.643e526d6b1bab65cb11.jpg",
+    "static/media/headTeacher.jpeg": "/MyFistFlight/static/media/headTeacher.11ebdeb54d7eac1fad5c.jpeg",
+    "static/media/nursery.jpg": "/MyFistFlight/static/media/nursery.82fd4aa333ec5fc5502d.jpg",
+    "static/media/WhatsApp Image 2023-10-08 at 16.17.44 (1).jpeg": "/MyFistFlight/static/media/WhatsApp Image 2023-10-08 at 16.17.44 (1).c3433db67eccfc150a6a.jpeg",
+    "index.html": "/MyFistFlight/index.html",
+    "main.8f64fc0a.css.map": "/MyFistFlight/static/css/main.8f64fc0a.css.map",
+    "main.dabb9ca1.js.map": "/MyFistFlight/static/js/main.dabb9ca1.js.map",
+    "787.234e27b1.chunk.js.map": "/MyFistFlight/static/js/787.234e27b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f64fc0a.css",
+    "static/js/main.dabb9ca1.js"
+  ]
+}
